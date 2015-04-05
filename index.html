@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html class="no-skrollr">
+<head>
+  <meta charset="utf-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>nln+pttn</title>
+  <link href='http://fonts.googleapis.com/css?family=Great+Vibes|Playfair+Display|Pacifio|Convergence|Merriweather|Volkron' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+  <!--
+    We position the images fixed and therefore need to place them outside of #skrollr-body.
+    We will then use data-anchor-target to display the correct image matching the current section (.gap element).
+  -->
+  <!-- splash  -->
+  <div
+    class="parallax-image-wrapper parallax-image-wrapper-100"
+    data-anchor-target="#dragons + .gap"
+    data-bottom-top="transform:translate3d(0px, 200%, 0px)"
+    data-top-bottom="transform:translate3d(0px, 0%, 0px)">
+
+    <div
+      class="parallax-image parallax-image-100"
+      style="background-image:url(images/welcome.jpg)"
+      data-anchor-target="#dragons + .gap"
+      data-bottom-top="transform: translate3d(0px, -80%, 0px);"
+      data-top-bottom="transform: translate3d(0px, 80%, 0px);">
+    </div>
+    <!--the +/-80% translation can be adjusted to control the speed difference of the image-->
+  </div>
+  <!-- bridge -->
+  <div
+    class="parallax-image-wrapper parallax-image-wrapper-100"
+    data-anchor-target="#bacons + .gap"
+    data-bottom-top="transform:translate3d(0px, 200%, 0px)"
+    data-top-bottom="transform:translate3d(0px, 0%, 0px)">
+
+    <div
+      class="parallax-image parallax-image-100"
+      style="background-image:url(images/background_reception.png)"
+      data-anchor-target="#bacons + .gap"
+      data-bottom-top="transform: translate3d(0px, -80%, 0px);"
+      data-top-bottom="transform: translate3d(0px, 80%, 0px);"
+    ></div>
+  </div>
+<!-- outro -->
+  <div
+    class="parallax-image-wrapper parallax-image-wrapper-100"
+    data-anchor-target="#kittens + .gap"
+    data-bottom-top="transform:translate3d(0px, 200%, 0px)"
+    data-top-bottom="transform:translate3d(0px, 0%, 0px)">
+
+    <div
+      class="parallax-image parallax-image-100"
+      style="background-image:url(images/bye_background.png)"
+      data-anchor-target="#kittens + .gap"
+      data-bottom-top="transform: translate3d(0px, -80%, 0px);"
+      data-top-bottom="transform: translate3d(0px, 80%, 0px);"
+    ></div>
+  </div>
+
+  <div id="skrollr-body">
+    <!-- splash & logo-->
+    <div class="header" id="dragons">        
+        <div id="logo">
+          <img src="images/logo-compressed.jpg" height="20%" width="20%"> 
+        </div>      
+    </div>  
+    <div class="gap gap-100" style="background-image:url(images/welcome.jpg);"></div>
+
+    <!-- reception -->
+    <div class="content" id="bacons">
+        <h1 id="rec"><span>Reception</span></h1>                      
+        <div id="box">        
+          <h2>Kindly Join us</h2>
+          <h2 id="text">for the</h2>
+          <h1>Wedding</h1>
+          <h2 id="text">of</h2>
+          <h2 id="name">Nay Lin Nyi</h2>
+          <h2 id="amp">&</h2>
+          <h2 id="name">Phyo Thu Thu Naing</h2>      
+          <h3>On the 25th of April, 2015.</h3>
+          <img src="images/knot-05.png" height="15%" width="15%">
+         </div> 
+    </div>
+    <div class="gap gap-100" style="background-image:url(images/background_reception.png);">      
+    </div>
+    <!-- Ceremony -->
+    <div class="content" id="kittens">
+      <h1 id="rec"><span id="rec">Ceremony</span></h1>  
+      <div id="box">
+        <div id="location">
+          <div id="left">
+            <img src="images/Weddinggate.png">
+          </div>
+          <div id="left1">
+          <b>Yuzana Garden Hotel</b><br/><span>
+            No. 44, Signal Pagoda Road, Mingalar Taung Nyunt Township, Yangon (Rangoon), Myanmar
+          </span>
+          </div>
+          <div style="clear:both;"></div>      
+        </div>
+        
+        <div id="cake">
+          <div id="left">
+            <img src="images/Weddingcake.png">
+          </div>
+          <div id="left1"><b>3:00 PM to 4:00 PM</b></div>      
+          <div style="clear:both;"></div>         
+        </div>      
+
+        <div id="date">
+          <div id="left">
+            <img src="images/Weddingday.png">
+          </div>
+          <div id="left1"><b>25th April, 2015 (Saturday)</b></div>       <div style="clear:both;"></div>     
+        </div>
+        <div>
+        <span>
+        We would like to extend our deepest appreciation to those who will witness our special day.
+        </span>
+        </div>
+      </div>
+    </div>
+    <div class="gap gap-100" style="background-image:url(images/bye_background.png);"></div>
+
+    <div class="content" id="done">
+      <h2>Nay Lin Nyi + Phyo Thu Thu Naing</h2>
+      We hope to see you at 25th April...
+    </div>
+  </div>
+
+  <script type="text/javascript" src="dist/skrollr.min.js"></script>
+  <script type="text/javascript">
+  skrollr.init({
+    smoothScrolling: false,
+    mobileDeceleration: 0.004
+  });
+  </script>
+</body>
+
+</html>
