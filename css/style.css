@@ -94,9 +94,8 @@
     padding:1px;
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
-    box-sizing:border-box;
+    box-sizing:border-box;    
   }
-
   .content-full {
     height:100%;
   }
@@ -118,7 +117,7 @@
     color:#ff46af;
   }
 
-  .header #logo{    
+  #logo{    
     text-align: center;
   }
 
