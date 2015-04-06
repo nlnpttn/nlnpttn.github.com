@@ -116,9 +116,17 @@
     font-size: 1.5em;    
     color:#ff46af;
   }
-
+  .header{
+        position: fixed; 
+        opacity: 0.5; 
+        width: 100%;
+  }
   #logo{    
     text-align: center;
+  }
+  #logo img{
+        width:18%;
+        height: auto;
   }
 
 /*weeding*/
